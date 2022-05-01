@@ -11,8 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-       
+      <main className={styles.main}>  
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>School Stories &rarr;</h2>
@@ -23,7 +22,6 @@ export default function Home() {
             <h2>College Stories &rarr;</h2>
             <p>AHHH! Toxic days, Depression, Cricket, Hopeless and 18plus.</p>
           </a>
-
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
@@ -43,6 +41,7 @@ export default function Home() {
           </a>
         </div>
 
+        
       </main>
 
       <footer className={styles.footer}>

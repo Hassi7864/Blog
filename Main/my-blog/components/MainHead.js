@@ -25,10 +25,10 @@ const MainHead = () => {
      Personal <a href="https://ud.me/hassanfaisal.nft" target="_blank">Blog</a>
     </h1>
     <div className={social.social}>
-    <FontAwesomeIcon className={social.twitter} icon={faTwitter}  />
-    <FontAwesomeIcon className={social.instagram} icon={faInstagram} />
-    <FontAwesomeIcon className={social.github} icon={faGithub} />
-    <FontAwesomeIcon className={social.linkedin} icon={faLinkedin}/>
+    <a href='https://twitter.com/nft_sahab' target="_blank"><FontAwesomeIcon className={social.twitter} icon={faTwitter}/></a>
+   <a href='https://www.instagram.com/hassan_faisal_sheikh' target="_blank"> <FontAwesomeIcon className={social.instagram} icon={faInstagram} /></a>
+    <a href='https://github.com/Hassi7864' target="_blank"><FontAwesomeIcon className={social.github} icon={faGithub} /></a>
+    <a href='https://www.linkedin.com/in/hassan-faisal-shiekh/' target="_blank"><FontAwesomeIcon className={social.linkedin} icon={faLinkedin}/></a>
     </div>
     <p className={styles.description}>
       Let Me Tell You What{' '}

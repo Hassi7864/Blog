@@ -1,9 +1,11 @@
 
 .social{
-  margin-top: 10px;
-  padding-top: -10px;
-  margin-left: 640px;
-  
+
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  margin-top: -10px;
+  text-align: center;
 }
 
 .twitter{

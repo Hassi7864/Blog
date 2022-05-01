@@ -1,4 +1,4 @@
-import '../mainstyles/globals.css'
+import '../styles/globals.css'
 import MainHead from '../components/MainHead'
 
 function MyApp({ Component, pageProps }) {
