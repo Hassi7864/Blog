@@ -22,7 +22,7 @@ const MainHead = () => {
   return (
     <div>
     <h1 className={styles.title}>
-     Personal <a href="https://ud.me/hassanfaisal.nft" target="_blank">Blog</a>
+     Personal <a href="/">Blog</a>
     </h1>
     <div className={social.social}>
     <a href='https://twitter.com/nft_sahab' target="_blank"><FontAwesomeIcon className={social.twitter} icon={faTwitter}/></a>
