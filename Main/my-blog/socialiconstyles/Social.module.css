@@ -1,30 +1,32 @@
 
 .social{
-  margin-top: 20px;
+  margin-top: 10px;
+  padding-top: -10px;
+  margin-left: 640px;
   
 }
 
 .twitter{
   height: 50px;
-  width: 20px;
+  width: 40px;
   margin-right: 10px;
   color: #1d9bf0;
   }
   .instagram{
     height: 50px;
-    width: 20px;
+    width: 40px;
     margin-right: 10px;
     color: #E1306C;
     }
     .github{
       height: 50px;
-      width: 20px;
+      width: 40px;
       margin-right: 10px;
       color: #57606a;;
       }
       .linkedin{
         height: 50px;
-        width: 20px;
+        width: 40px;
         margin-right: 10px;
         color: #0a66c2;
         }

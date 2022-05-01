@@ -1,24 +1,6 @@
 import Head from 'next/head'
-import Script from 'next/script'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import social from '../social/Social.module.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import the library
-import { library } from '@fortawesome/fontawesome-svg-core';
-// import your icons
-import {
-  faGithub,
-  faTwitter,
-  faLinkedin,
-  faInstagram
-} from '@fortawesome/free-brands-svg-icons'
-library.add(
-  faGithub,
-  faTwitter,
-  faLinkedin,
-  faInstagram
-)
+
 
 export default function Home() {
   return (
@@ -30,20 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-         Personal <a href="https://ud.me/hassanfaisal.nft" target="_blank">Blog</a>
-        </h1>
-        <div className={social.social}>
-        <FontAwesomeIcon className={social.twitter} icon={faTwitter} style={{width:'40px'}} />
-        <FontAwesomeIcon className={social.instagram} icon={faInstagram} style={{width:'40px'}}/>
-        <FontAwesomeIcon className={social.github} icon={faGithub} style={{width:'40px'}}/>
-        <FontAwesomeIcon className={social.linkedin} icon={faLinkedin} style={{width:'40px'}}/>
-        </div>
-        <p className={styles.description}>
-          Let Me Tell You What{' '}
-          <code className={styles.code}><a>Boring</a> / <a>Excitement</a> / <a>Challenges</a></code>
-        </p>
-
+       
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>School Stories &rarr;</h2>
