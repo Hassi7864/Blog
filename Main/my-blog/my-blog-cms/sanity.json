@@ -12,7 +12,7 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    
+    "url-metadata-input"
   ],
   "env": {
     "development": {
