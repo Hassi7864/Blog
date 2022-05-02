@@ -32,7 +32,7 @@ const MainHead = () => {
     </div>
     <p className={styles.description}>
       Let Me Tell You What{' '}
-     <button className={styles.btn}><Link href='/boring'>Boring</Link> | <Link href='/excitement'>Excitement</Link>  | <Link href='/challenges'>Challenges</Link></button>
+     <button className={styles.btn}><Link href='/boring/blog'>Boring</Link> | <Link href='/excitement/blog'>Excitement</Link>  | <Link href='/challenges/blog'>Challenges</Link></button>
     </p>
     </div>
   )

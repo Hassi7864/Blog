@@ -40,7 +40,7 @@ export const getServerSideProps = async pageContext => {
   *  For getting the data from sanity we like to go for a http request
   *  We using query as to get the specific data we want 
   */
-  const query = encodeURIComponent(`*[ _type == "post" && slug.current == "${pageSlug}" ]`);
+  const query = encodeURIComponent(`*[ _type == "excitement" && slug.current == "${pageSlug}" ]`);
   const url = `https://hel9lmqd.api.sanity.io/v1/data/query/production?query=${query}`;
 
   const result = await fetch(url).then(res => res.json());
