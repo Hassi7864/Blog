@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import social from '../social/Social.module.css'
+import social from '../styles/Social.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import the library
 import { library } from '@fortawesome/fontawesome-svg-core';
